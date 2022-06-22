@@ -1,0 +1,41 @@
+[
+	{
+		"id": 1,
+		"kwotaZnP": 100,
+		"doplataReklamacja": 10,
+		"potracenia": 20,
+		"nalezneSaldo": 0,
+		"doWyplaty": 0
+	},
+	{
+		"id": 2,
+		"kwotaZnP": 200,
+		"doplataReklamacja": 23,
+		"potracenia": 1,
+		"nalezneSaldo": 0,
+		"doWyplaty": 0
+	},
+	{
+		"id": 3,
+		"kwotaZnP": 300,
+		"doplataReklamacja": 29,
+		"potracenia": 33,
+		"nalezneSaldo": 0,
+		"doWyplaty": 0
+	},
+	{
+		"id": 33,
+		"kwotaZnP": 3300,
+		"doplataReklamacja": 329,
+		"potracenia": 33,
+		"nalezneSaldo": 0,
+		"doWyplaty": 0
+	},
+	{
+		"URL": "https://www.npmjs.com/package/react",
+		"URLshortened": "https://tnij.livechat.com/116",
+		"created": "2020-12-20 13:11:39",
+		"Remarks": "116",
+		"id": 116
+	}
+]

@@ -1,0 +1,50 @@
+@hostname = http://localhost
+@port = 4001
+
+@host = {{hostname}}:{{port}}
+
+
+http://localhost:4001/WoP?page=1&orderby=0&orderDir=&perPage=20&searchString=
+
+###
+POST {{host}}/WoP HTTP/1.1
+content-type: application/json
+
+	{
+		"URL": "{{$guid}}",
+		"WoPhortened":"{{$randomInt 13 222222}}",
+        "created": "{{$datetime 'YYYY-MM-DD HH:mm:ss'}}"
+	}
+###
+PATCH {{host}}/WoP/2 HTTP/1.1
+content-type: application/json
+
+{
+    "URL": "10131312",
+    "WoPhortened": "update Admin",
+    "created": "{{$datetime 'YYYY-MM-DD HH:mm:ss'}}"
+}
+
+###
+GET {{host}}/WoP/byDateBars
+
+###
+GET {{host}}/WoP
+
+###
+GET {{host}}/WoP
+    ?page=1
+    &orderby=1
+    &perPage=5
+    &searchString=admin
+
+###
+GET {{host}}/WoP/33
+
+###
+DELETE {{host}}/WoP/54
+
+
+
+
+
