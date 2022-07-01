@@ -7,7 +7,7 @@ export type User = {
 
 type Fields = {
 	// WoPid: number;
-	kwotaZnP: number; //podstawa
+	layoutID: number; //podstawa
 	doplataReklamacja?: number;
 	potracenia: number;
 	nalezneSaldo?: number; //wyliczona z algorytmu +/-
